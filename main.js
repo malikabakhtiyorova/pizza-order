@@ -66,7 +66,7 @@ for (var i = 0; i < pizzaSize.length; i++) {
       var carIndex = yourPizzaSize.indexOf(this.name);
       yourPizzaSize.splice(carIndex, 1);
     } else {
-      yourPizzaSize.push(this.name + "li");
+      yourPizzaSize.push(this.name);
     }
     console.log(yourPizzaSize);
     elResultSize.textContent = yourPizzaSize.join(', ');
@@ -105,7 +105,7 @@ for (var i = 0; i < pizzaIngredients.length; i++) {
       var carIndex = yourPizzaIng.indexOf(this.name);
       yourPizzaIng.splice(carIndex, 1);
     } else {
-      yourPizzaIng.push(this.name + "li");
+      yourPizzaIng.push(this.name);
     }
     console.log(yourPizzaIng);
     elResultIngredients.textContent = yourPizzaIng.join(', ');
